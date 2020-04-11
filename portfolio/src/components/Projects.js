@@ -5,7 +5,7 @@ const Project = props => {
   
     const { title, image, description, link } = props.project
     return (
-      <div style={{ display: 'inline-block', width: 300, margin: 10}}>
+      <div className="projects">
         <h3>{title}</h3>
         <img src={image} alt='profile' style={{ width: 200, height: 120}}/>
         <p>{description}</p>
@@ -17,7 +17,7 @@ const Project = props => {
 const Projects = () => (
     
       <div>
-        <h2>Highlighted Projects</h2>
+        <h2>Vanilla JS Projects</h2>
         <div>
           {
             PROJECTS.map(PROJECT => (

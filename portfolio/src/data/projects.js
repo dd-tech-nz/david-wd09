@@ -5,16 +5,16 @@ import project3 from '../assets/project3.png'
 const PROJECTS = [
   {
     id: 1,
-    title: 'Example React Application',
-    description: 'A React App that I built, involving JS and core web dev concepts!',
-    link: 'https://github.com/15Dkatz/',
+    title: 'Minesweeper Game',
+    description: 'EDA Foundation Course Project',
+    link: 'https://dd-tech-nz.github.io/minesweeper/',
     image: project1
   },
   {
     id: 2,
-    title: 'MY API',
-    description: 'A REST API that I built from scratch with GET and POST requests!',
-    link: 'https://github.com/15Dkatz/example',
+    title: 'Calculator App',
+    description: 'EDA Foundation Course Stretch Project',
+    link: 'https://dd-tech-nz.github.io/calculator/',
     image: project2
   },
   {
