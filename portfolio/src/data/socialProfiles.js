@@ -6,22 +6,22 @@ import twitterIcon from '../assets/twitter_icon.png'
 const SOCIAL_PROFILES = [
   {
     id: 1,
-    link: 'mailto:dkcodehelper@gmail.com',
+    link: 'mailto:ddumolo@hotmail.com',
     image: emailIcon
   },
   {
     id: 2,
-    link: 'https://github.com/15Dkatz',
+    link: 'https://github.com/dd-tech-nz',
     image: githubIcon
   },
   {
     id: 3,
-    link: 'https://www.linkedin.com/in/david-katz-sf',
+    link: 'https://www.linkedin.com/in/david-dumolo/',
     image: linkedinIcon
   },
   {
     id: 4,
-    link: 'https://twitter.com/dkcodehelper',
+    link: 'https://twitter.com/imbcacademy',
     image: twitterIcon
   }
 

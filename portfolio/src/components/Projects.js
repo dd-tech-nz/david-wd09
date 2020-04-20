@@ -17,7 +17,7 @@ const Project = props => {
 const Projects = () => (
     
       <div>
-        <h2>Vanilla JS Projects</h2>
+        <h2>Vanilla <span className="js">JS</span> Projects</h2>
         <div>
           {
             PROJECTS.map(PROJECT => (

@@ -1,6 +1,10 @@
 import project1 from '../assets/project1.png'
 import project2 from '../assets/project2.png'
 import project3 from '../assets/project3.png'
+import project4 from '../assets/project4.jpg'
+import project5 from '../assets/project5.jpg'
+import project6 from '../assets/project6.jpg'
+
 
 const PROJECTS = [
   {
@@ -19,10 +23,31 @@ const PROJECTS = [
   },
   {
     id: 3,
-    title: 'Operating Systems Final Project',
-    description: 'My unique final project for my university Operating Systems course.',
-    link: 'https://github.com/15Dkatz/example',
+    title: 'Whack-a-Mole! Game',
+    description: 'EDA Foundation Course Project',
+    link: 'https://dd-tech-nz.github.io/javascript-carnival/whack-a-mole/whack-a-mole.html',
     image: project3
+  },
+{
+  id: 4,
+  title: 'Dress-the-Clown',
+  description: 'EDA Foundation Course Project',
+  link: 'https://dd-tech-nz.github.io/javascript-carnival/dress-the-clown/dress-the-clown.html',
+  image: project4
+  },
+  {
+    id: 5,
+    title: 'Inflate-the-Unicorn',
+    description: 'EDA Foundation Course Project',
+    link: 'https://dd-tech-nz.github.io/javascript-carnival/inflate-the-unicorn/inflate-the-unicorn.html',
+    image: project5
+  },
+  {
+    id: 6,
+    title: 'Weather App',
+    description: 'Free Code Camp Project',
+    link: 'http://fivestarpork.co.nz/weather/',
+    image: project6
   }
 ]
 

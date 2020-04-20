@@ -25,7 +25,7 @@ class App extends Component {
   
   render() {
     let bio = this.state.displayBio ?  (
-      <div>
+      <div className="main">
           <p>I live in Auckland, and code every day.</p>
           <p>My favourite langauge is JavaScript, and I think React.js is awesome.</p>
         <p>Besides coding, I also love martial arts and my dog!</p>
@@ -35,10 +35,11 @@ class App extends Component {
         <div>
           <button onClick={this.toggleDisplayBio}>Read more</button>
         </div>
-    )
+      )
+    
 
     return (
-      <div>
+      <div className='profileHeader'>
         <img src={profile} alt='profile' className="profile"/>
         <h1>Hello</h1>
         <p>My name is David.</p>
@@ -56,5 +57,7 @@ class App extends Component {
     )
   }
 }
+
+
 
 export default App;
